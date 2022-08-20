@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>govhack</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 5px;
+      bottom: 0;
+      height: inherit;
+    }
+
+    </style>
+  </head>
+<body>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="index2.html">MAIN PAGE</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="business.html">BUSINESS</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="it.html">IT</a>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 id="menu" class="w3-text-teal">Accounting</h1><h3 class="w3-text-teal">Industory Introduction</h3>
+      <p>With the rapid rise of Internet technology and big data, traditional accounting work can no longer meet the needs of modern economic activities. The big data environment has a significant impact on the application environment and functional scope of corporate accounting. At the same time, higher requirements are put forward for enterprise accounting talents. The purpose of this category is to help users learn how to analyse and process large amounts of data. 
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 id="menu" class="w3-text-teal">Accounting</h1>
+     </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <a href="courseAcc.html" class="w3-hover-blue">Check Course</a>
+  </div>
+
+  <footer id="foot"  class="w3-container w3-padding-32 w3-dark-grey">
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>FOOTER</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    
+      <div class="w3-third">
+        <h3>OTHER RECOMMENDATIONS</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="images/Python-logo-notext.svg.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Python</span><br>
+            <span>A high-level, interpreted, general-purpose programming language</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="images/java.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Java</span><br>
+            <span>A high-level, class-based, object-oriented programming language</span>
+          </li> 
+        </ul>
+      </div>
+  
+      <div class="w3-third">
+        <h3>CONTACT US</h3>
+        <div  class="footerstyle">
+          <div class="menu-div">Email: digitallearning@gmail.com</div>
+          <div class="menu-div">Address: St.Lucia</div>
+          <a class="menu-div" href="reference.html">#Copy right&reference</a>
+          <p><a class="menu-div" href="#menu">Back To The Top</a></p>
+      </div>
+      </div>
+  
+    </div>
+    </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

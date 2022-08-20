@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 5px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+  </head>
+<body>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="index2.html">MAIN PAGE</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="accounting.html">ACCOUNTING</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="it.html">IT</a>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 id="menu" class="w3-text-teal">Business</h1><h3 class="w3-text-teal">Industory Introduction</h3>
+      <p>Finding out what people want, using that knowledge to build products and services, and successfully marketing them are all part of business, which is the action of buying and selling things and services, or a specific organisation that does this. Rather than for pleasure, it is for labour in general. The purpose of this category is to help users understand the task or activity of analysing a business's or organization's operations and to help them get the results they want.
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal">Lesson 2: Upload photos and files to your website</h3>
+      <p> In this course, you will learn to upload files and images onto your on website.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal">Lesson 3: Using Google Analytics to analyze your website’s datas</h3>
+      <p>In this lesson, you will learn the functions and ways of using google analytics</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <a href="courseBusi.html" class="w3-hover-blue">Check Course</a>
+  </div>
+  <!-- Pagination -->
+  <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div> -->
+
+  <footer id="foot"  class="w3-container w3-padding-32 w3-dark-grey">
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>FOOTER</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    
+      <div class="w3-third">
+        <h3>OTHER RECOMMENDATIONS</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="images/Python-logo-notext.svg.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Python</span><br>
+            <span>A high-level, interpreted, general-purpose programming language</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="images/java.png" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Java</span><br>
+            <span>A high-level, class-based, object-oriented programming language</span>
+          </li> 
+        </ul>
+      </div>
+  
+      <div class="w3-third">
+        <h3>CONTACT US</h3>
+        <div  class="footerstyle">
+          <div class="menu-div">Email: digitallearning@gmail.com</div>
+          <div class="menu-div">Address: St.Lucia</div>
+          <a class="menu-div" href="reference.html">#Copy right&reference</a>
+          <p><a class="menu-div" href="#menu">Back To The Top</a></p>
+      </div>
+      </div>
+  
+    </div>
+    </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
